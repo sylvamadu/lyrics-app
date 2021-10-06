@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;400;500&display=swap');
+
+/*
+font-family: 'Yaldevi', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Yaldevi', sans-serif;
+}
+header{
+    height: 350px;
+    width: 100%;
+    background-image: url('./img/pexels-vlad-bagacian-1337753.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+header > h1{
+    color: whitesmoke;
+    font-weight: 500 ;
+}
+form{
+    margin: 1em 0;
+    background-color: white;
+    width: 100%;
+    padding:    0.2em 0;
+    border-radius: 1.5em;
+}
+.input-block{
+    width: 60%;
+    font-size: 16px;
+    padding: .1em auto .9em 1em;
+    margin-left: 1.4em;
+    height: 2em;
+    font-family: 'Yaldevi', sans-serif;
+    border: none;
+}
+button{
+    background-color: #333333;
+    border: none;
+    border-radius: 1.5em;
+    padding: 1em 2.1em;
+    color: white;
+}
+.container{
+    margin: 2em auto auto auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.centered{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.songs{
+    text-align: center;
+}
+.songs li{
+    list-style: none;
+    margin: .6em 0;
+}
+.btn{
+    background-color: #333333;
+    border: none;
+    border-radius: 1.5em;
+    padding: .6em 1.5em;
+    color: white;
+}
+@media screen and (min-width: 375px ) and (max-width: 400px) {
+    .input-block{
+        width: 66%;
+    }
+}
+@media screen and (min-width: 376px ) and (max-width: 425px) {
+    .input-block{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 768px ) and (max-width: 900px) {
+    .input-block{
+          width: 66%;
+    }
+    form{
+        margin: 1em 0;
+        background-color: white;
+        width: 50%;
+        padding:    0.2em 0;
+        border-radius: 1.5em;
+    }
+}
+@media screen and (min-width: 900px ) and (max-width: 1440px) {
+    .input-block{
+        width: 81%;
+    }
+    form{
+        margin: 1em 0;
+        background-color: white;
+        width: 50%;
+        padding:    0.2em 0;
+        border-radius: 1.5em;
+    }
+}
